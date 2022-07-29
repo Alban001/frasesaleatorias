@@ -1,4 +1,4 @@
-export const PHRASES=[
+ export const PHRASES=[
     { 
       phrase:' En la vida algunas veces se gana, otras veces se aprende',
       author:'- John Maxwell',
@@ -35,8 +35,6 @@ export const PHRASES=[
 
   
 // este codigo itera de manera random mi array de objetos y los muestra en pantalla
-
-
 
 
 

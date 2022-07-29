@@ -5,7 +5,7 @@ import { PHRASES } from '../data/Data'
 const Quote = () => {
   const [click,setClick]=useState(false)
 
-   var randomPhrases = Math.floor(Math.random() * PHRASES.length) + 1;
+   var randomPhrases = Math.floor(Math.random() * PHRASES.length);
     for(let i = 0; i < PHRASES.length; i++){
         if(i==randomPhrases)
         var phrase=PHRASES[i].phrase ,author=PHRASES[i].author 
