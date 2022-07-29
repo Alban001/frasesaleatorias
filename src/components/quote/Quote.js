@@ -6,6 +6,7 @@ const Quote = () => {
   const [click,setClick]=useState(false)
 
    var randomPhrases = Math.floor(Math.random() * PHRASES.length);
+
     for(let i = 0; i < PHRASES.length; i++){
         if(i==randomPhrases)
         var phrase=PHRASES[i].phrase ,author=PHRASES[i].author 
@@ -33,7 +34,7 @@ const Quote = () => {
                   </div> 
                 </div>
                <div className="quote__button-right">
-               <button onClick={handleChange}>New quote</button>
+               <button onClick={handleChange}>Nueva Frase</button>
                </div>
             </div>
           </div>

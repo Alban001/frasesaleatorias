@@ -35,8 +35,3 @@
 
   
 // este codigo itera de manera random mi array de objetos y los muestra en pantalla
-
-
-
-
-
